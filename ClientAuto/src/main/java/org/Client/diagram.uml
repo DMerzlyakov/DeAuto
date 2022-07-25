@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="373.0" y="406.0">org.Client.Controllers.SuperController</node>
+    <node x="0.0" y="1260.0">org.Client.App</node>
+    <node x="587.0" y="51.0">org.Client.Controllers.EmployeeControllers.EmployeeController</node>
+    <node x="368.0" y="155.0">org.Client.Controllers.SaleControllers.SaleEditController</node>
+    <node x="220.0" y="244.0">org.Client.Controllers.EmployeeControllers.EmployeeListForChoose</node>
+    <node x="209.0" y="335.0">org.Client.Controllers.CarControllers.CarAddController</node>
+    <node x="582.0" y="443.0">org.Client.Controllers.SaleControllers.SaleAddController</node>
+    <node x="193.0" y="883.0">org.Client.api.SaleRequest</node>
+    <node x="646.0" y="708.0">org.Client.Controllers.ClientControllers.ClientEditController</node>
+    <node x="346.0" y="0.0">org.Client.Controllers.ClientControllers.ClientAddController</node>
+    <node x="0.0" y="1011.0">org.Client.api.CarRequest</node>
+    <node x="354.0" y="1049.0">org.Client.api.ClientRequest</node>
+    <node x="92.0" y="85.0">org.Client.Controllers.EmployeeControllers.EmployeeInfoController</node>
+    <node x="135.0" y="1185.0">org.Client.api.EmployeeRequest</node>
+    <node x="551.0" y="883.0">org.Client.utils.DateUtil</node>
+    <node x="352.0" y="637.0">org.Client.Controllers.CarControllers.CarListForChooseController</node>
+    <node x="48.0" y="549.0">org.Client.Controllers.AuthAndAboutController.AboutController</node>
+    <node x="500.0" y="558.0">org.Client.Controllers.ClientControllers.ClientListForChooseController</node>
+    <node x="1014.0" y="883.0">org.Client.models.Client</node>
+    <node x="292.0" y="566.0">org.Client.Controllers.SaleControllers.SaleController</node>
+    <node x="0.0" y="316.0">org.Client.Controllers.AuthAndAboutController.LoginController</node>
+    <node x="169.0" y="1031.0">org.Client.api.SuperRequest</node>
+    <node x="502.0" y="226.0">org.Client.Controllers.ClientControllers.ClientController</node>
+    <node x="136.0" y="478.0">org.Client.Controllers.CarControllers.CarEditController</node>
+    <node x="1155.0" y="883.0">org.Client.models.Sale</node>
+    <node x="117.0" y="1260.0">org.Client.models.Car</node>
+    <node x="745.0" y="226.0">org.Client.Controllers.CarControllers.CarInfoController</node>
+    <node x="807.0" y="471.0">org.Client.Controllers.ClientControllers.ClientInfoController</node>
+    <node x="597.0" y="303.0">org.Client.Controllers.CarControllers.CarController</node>
+    <node x="865.0" y="883.0">org.Client.utils.MD5Util</node>
+    <node x="708.0" y="883.0">org.Client.models.Employee</node>
+    <node x="121.0" y="750.0">org.Client.Controllers.EmployeeControllers.EmployeeEditController</node>
+    <node x="399.0" y="808.0">org.Client.Controllers.EmployeeControllers.EmployeeAddController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.Client.Controllers.EmployeeControllers.EmployeeEditController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.ClientControllers.ClientAddController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.SaleControllers.SaleEditController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.EmployeeControllers.EmployeeListForChoose" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.ClientControllers.ClientEditController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.SaleControllers.SaleAddController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.CarControllers.CarInfoController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.AuthAndAboutController.AboutController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.api.SaleRequest" target="org.Client.api.SuperRequest">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.SaleControllers.SaleController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.CarControllers.CarAddController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.EmployeeControllers.EmployeeInfoController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.api.CarRequest" target="org.Client.api.SuperRequest">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.ClientControllers.ClientListForChooseController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.AuthAndAboutController.LoginController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.CarControllers.CarController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.api.ClientRequest" target="org.Client.api.SuperRequest">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.ClientControllers.ClientInfoController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.EmployeeControllers.EmployeeController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.ClientControllers.ClientController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.api.EmployeeRequest" target="org.Client.api.SuperRequest">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.CarControllers.CarListForChooseController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.EmployeeControllers.EmployeeAddController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.Client.Controllers.CarControllers.CarEditController" target="org.Client.Controllers.SuperController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.6540983606557377" x="563.2608695652176" y="554.858695652174" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

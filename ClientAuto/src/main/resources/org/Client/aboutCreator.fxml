@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1280.0" styleClass="background" stylesheets="@design/design.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.Client.Controllers.AuthAndAboutController.AboutController">
+    <children>
+        <Pane prefHeight="700.0" prefWidth="101.0" styleClass="backgroundMenu">
+            <children>
+                <Button fx:id="clientbutton" layoutX="3.0" layoutY="139.0" mnemonicParsing="false" onAction="#toClients" prefHeight="39.0" prefWidth="95.0" text="Клиенты" />
+                <Button fx:id="carButton" layoutX="3.0" layoutY="341.0" mnemonicParsing="false" onAction="#toCars" prefHeight="39.0" prefWidth="95.0" text="Автомобили" />
+                <Button fx:id="employeeButton" layoutX="3.0" layoutY="191.0" mnemonicParsing="false" onAction="#toEmployees" prefHeight="39.0" prefWidth="95.0" text="Сотрудники" />
+                <Button fx:id="saleButton" layoutX="3.0" layoutY="27.0" mnemonicParsing="false" onAction="#toSales" prefHeight="39.0" prefWidth="95.0" text="Продажи" />
+                <Button fx:id="aboutButton" layoutX="3.0" layoutY="647.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="95.0" text="О программе" />
+            </children>
+        </Pane>
+        <Pane layoutX="100.0" prefHeight="700.0" prefWidth="1180.0" styleClass="background">
+            <children>
+                <Text layoutX="401.0" layoutY="40.0" lineSpacing="6.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информационно-справочная система Диллерского центра автомобилей deAuto" textAlignment="CENTER" wrappingWidth="377.13671875">
+                    <font>
+                        <Font name="Calibri Bold" size="22.0" />
+                    </font>
+                </Text>
+                <TextArea layoutX="24.0" layoutY="360.0" prefHeight="184.0" prefWidth="977.0" styleClass="backgroundMenu" text="Краткое руководство:&#10;&#10;В левой части экрана на выбор предоствлены вкладки:&#10;1) Продажи - Вся информация о продажах, возможность добавлять, удалять и редактировать продажи по соответсвующим кнопкам&#10;2) Клиенты - Вся информация о клинтах, возможность добавлять, удалять и редактрировать по соответсвующим кнопкам&#10;3) Сотрудники - Вся информация о сотрудниках компании, возможность добавлять, удалять и редактрировать по соответсвующим кнопкам&#10;4) Автомобили - Вся информация о автомобилях, возможность добавлять, удалять и редактрировать по соответсвующим кнопкам&#10;5) О программе - Краткое руководство и информация о создателе.">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TextArea>
+                <Text layoutX="30.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ученик Финансовго университета при Правительстве РФ Группа ПИ19-3" wrappingWidth="390.13671875">
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+                </Text>
+                <Text layoutX="30.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="О создателе: " wrappingWidth="119.13671875">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Text>
+                <Text layoutX="25.0" layoutY="658.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Мерзляков Данила Артемович" wrappingWidth="255.828125">
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+                </Text>
+                <ImageView fitHeight="190.0" fitWidth="265.0" layoutX="458.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/De_Auto.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="200.0" fitWidth="400.0" layoutX="675.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

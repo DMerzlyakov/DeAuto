@@ -1,0 +1,37 @@
+.background{
+    -fx-background-color: #F9F9F9;
+}
+.backgroundMenu{
+    -fx-background-color: #193b67;
+
+}
+.label{
+    -fx-font-size: 12;
+    -fx-font-family: "Segoe MDL2 Assets";
+}
+.buttonMenu{
+    -fx-background-color: #EEECEF;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.table-view{
+    -fx-background-color: #193b67;
+}
+
+.tableColumn{
+    -fx-background-color:  #f5f9ff;
+    -fx-border-color:  #5f7086;
+}
+.menu .label{
+    -fx-text-fill: #EEEEEE;
+    -fx-font-size: 13;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.button{
+    /*-fx-background-color: #EEECEF;*/
+    -fx-font-family: "Segoe UI Semibold";
+}
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: black;
+    -fx-background-color: #ffffe5;
+}
