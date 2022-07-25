@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="881.2425925925926" y="90.0">com.serverauto.server.repositories.ClientRepository</node>
+    <node x="237.0" y="415.0">com.serverauto.server.ServerApplication</node>
+    <node x="449.7694444444445" y="180.0">com.serverauto.server.entities.Employee</node>
+    <node x="536.3111111111111" y="260.0">com.serverauto.server.entities.EmployeeProjection</node>
+    <node x="438.3111111111111" y="0.0">com.serverauto.server.entities.Car</node>
+    <node x="552.0805555555555" y="340.0">com.serverauto.server.entities.SaleProjection</node>
+    <node x="466.0" y="415.0">com.serverauto.server.Controllers.ClientController</node>
+    <node x="0.0" y="415.0">com.serverauto.server.Controllers.EmployeeController</node>
+    <node x="269.7694444444445" y="180.0">com.serverauto.server.repositories.SaleRepository</node>
+    <node x="685.2425925925926" y="90.0">com.serverauto.server.entities.ClientProjection</node>
+    <node x="892.0" y="415.0">com.serverauto.server.Controllers.CarController</node>
+    <node x="172.0" y="90.0">com.serverauto.server.entities.CarProjection</node>
+    <node x="530.3111111111111" y="0.0">com.serverauto.server.entities.Client</node>
+    <node x="324.3111111111111" y="260.0">com.serverauto.server.repositories.EmployeeRepository</node>
+    <node x="0.0" y="90.0">com.serverauto.server.repositories.CarRepository</node>
+    <node x="486.3111111111111" y="90.0">com.serverauto.server.entities.Sale</node>
+    <node x="687.0" y="415.0">com.serverauto.server.Controllers.SaleController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.serverauto.server.entities.ClientProjection" target="com.serverauto.server.entities.Client">
+      <point x="-1.1368683772161603E-13" y="-15.0" />
+      <point x="773.2425925925925" y="70.0" />
+      <point x="597.5111111111112" y="70.0" />
+      <point x="19.200000000000045" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.repositories.SaleRepository" target="com.serverauto.server.entities.Sale">
+      <point x="0.0" y="-15.0" />
+      <point x="349.7694444444445" y="140.0" />
+      <point x="494.3111111111111" y="140.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.EmployeeProjection" target="com.serverauto.server.entities.Employee">
+      <point x="0.0" y="-15.0" />
+      <point x="632.3111111111111" y="235.0" />
+      <point x="533.7694444444445" y="235.0" />
+      <point x="28.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.SaleProjection" target="com.serverauto.server.entities.Sale">
+      <point x="20.0" y="-15.0" />
+      <point x="652.0805555555555" y="310.0" />
+      <point x="740.0611111111111" y="310.0" />
+      <point x="740.0611111111111" y="160.0" />
+      <point x="558.3111111111111" y="160.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.SaleProjection" target="com.serverauto.server.entities.ClientProjection">
+      <point x="60.0" y="-15.0" />
+      <point x="692.0805555555555" y="320.0" />
+      <point x="773.2425925925926" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.Client" target="com.serverauto.server.entities.Sale">
+      <point x="0.0" y="15.0" />
+      <point x="578.3111111111111" y="70.0" />
+      <point x="559.6444444444444" y="70.0" />
+      <point x="33.33333333333337" y="-15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.Sale" target="com.serverauto.server.entities.Car">
+      <point x="-33.33333333333337" y="-15.0" />
+      <point x="492.9777777777777" y="70.0" />
+      <point x="474.3111111111111" y="70.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.Employee" target="com.serverauto.server.entities.Sale">
+      <point x="-37.33333333333337" y="-15.0" />
+      <point x="468.43611111111113" y="150.0" />
+      <point x="510.3111111111111" y="150.0" />
+      <point x="-16.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.Car" target="com.serverauto.server.entities.Sale">
+      <point x="28.799999999999955" y="15.0" />
+      <point x="503.11111111111103" y="50.0" />
+      <point x="519.6444444444444" y="50.0" />
+      <point x="-6.666666666666629" y="-15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.Sale" target="com.serverauto.server.entities.Employee">
+      <point x="0.0" y="15.0" />
+      <point x="526.3111111111111" y="160.0" />
+      <point x="505.7694444444445" y="160.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="com.serverauto.server.repositories.ClientRepository" target="com.serverauto.server.entities.Client">
+      <point x="0.0" y="-15.0" />
+      <point x="969.2425925925926" y="60.0" />
+      <point x="616.711111111111" y="60.0" />
+      <point x="38.39999999999998" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.Sale" target="com.serverauto.server.entities.Client">
+      <point x="6.666666666666629" y="-15.0" />
+      <point x="532.9777777777776" y="70.0" />
+      <point x="539.911111111111" y="70.0" />
+      <point x="-38.39999999999998" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.CarProjection" target="com.serverauto.server.entities.Car">
+      <point x="0.0" y="-15.0" />
+      <point x="248.0" y="70.0" />
+      <point x="459.9111111111111" y="70.0" />
+      <point x="-14.399999999999977" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.repositories.EmployeeRepository" target="com.serverauto.server.entities.Employee">
+      <point x="0.0" y="-15.0" />
+      <point x="420.3111111111111" y="235.0" />
+      <point x="477.7694444444445" y="235.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.SaleProjection" target="com.serverauto.server.entities.EmployeeProjection">
+      <point x="-20.0" y="-15.0" />
+      <point x="612.0805555555555" y="320.0" />
+      <point x="632.3111111111111" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.repositories.CarRepository" target="com.serverauto.server.entities.Car">
+      <point x="-5.6843418860808015E-14" y="-15.0" />
+      <point x="75.99999999999994" y="60.0" />
+      <point x="445.5111111111111" y="60.0" />
+      <point x="-28.799999999999955" y="15.0" />
+    </edge>
+    <edge source="com.serverauto.server.entities.SaleProjection" target="com.serverauto.server.entities.CarProjection">
+      <point x="-60.0" y="-15.0" />
+      <point x="572.0805555555555" y="320.0" />
+      <point x="248.0" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="378.7956349206347" y="299.23611111111103" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
